@@ -1,0 +1,61 @@
+@media (max-width: 900px) {
+    .card{
+        flex-direction: column;
+    }
+
+    .card 
+        .card-header{
+        width: 100%;
+    }
+
+    .card 
+        .card-header .header-image{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card 
+        .card-header .header-image::after
+        {
+            border-radius: 10px 10px 0 0;
+            height: calc(100% - 4px);
+}
+
+    .card 
+        .container{
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .card
+        .content{
+            padding: 40px;
+    }
+
+    .card
+        .container .title{
+        font-size: 26px;
+
+        margin-bottom: 30px;
+    }
+
+    .card 
+        .container .resume{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .card 
+        .resume .infos{
+        padding: 20px;
+    }
+
+    .card 
+        .container .resume p
+        {
+        padding-top: 10px;
+        font-weight: 300;
+    }
+}

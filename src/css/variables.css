@@ -1,0 +1,34 @@
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --MainBackground: hsl(233, 47%, 7%);
+    --CardBackground: hsl(244, 38%, 16%);
+    --Accent: hsl(277, 64%, 61%);
+
+    /* ### Neutral */
+
+    --Main-Heading-Stats: hsl(0, 0%, 100%);
+    --MainParagraph: hsla(0, 0%, 100%, 0.75);
+    --StatHeadings: hsla(0, 0%, 100%, 0.6);
+
+    /* ## Typography */
+
+    /* ### Body Copy */
+
+    --ParagraphSize: 15px;
+
+    /* ### Font */
+
+    --Family: [Inter](https://fonts.google.com/specimen/Inter);
+    --Weights: 400, 700;
+    font-family: "Inter", sans-serif;
+
+
+    --Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+    --Weights: 400;
+    /* resume info */
+    font-family: "Lexend Deca", sans-serif;
+
+}
