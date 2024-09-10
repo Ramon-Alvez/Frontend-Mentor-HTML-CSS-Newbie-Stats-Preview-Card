@@ -1,6 +1,7 @@
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .card{
         flex-direction: column;
+        height: fit-content;
     }
 
     .card 
@@ -11,19 +12,20 @@
     .card 
         .card-header .header-image{
         border-radius: 10px 10px 0 0;
+        display: flex;
     }
 
     .card 
         .card-header .header-image::after
         {
             border-radius: 10px 10px 0 0;
-            height: calc(100% - 4px);
-}
+            height: 100%;
+    }
 
     .card 
         .container{
         width: 100%;
-
+        
         text-align: center;
     }
 
