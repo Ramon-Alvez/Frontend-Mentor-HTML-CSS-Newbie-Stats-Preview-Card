@@ -16,7 +16,7 @@ Users should be able to:
 ![Desktop Preview](./src/screenshots/desktop.PNG)
 
 - ### Mobile
-![Mobile Preview](./src/screenshots/mobile.PNG)
+![Mobile Preview](./src/screenshots/mobile.png)
 
 
 ### Links
