@@ -37,7 +37,8 @@ body{
     .card-header .header-image::after
     {
     content: '';
-    background-color: hsla(277, 93%, 28%, 0.6);
+    background-color: var(--Accent, hsla(277, 93%, 28%));
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     display: block;
